@@ -87,6 +87,21 @@ python3 -m venv .venv
 
 Outputs appear in `outputs/`; logs in `logs/pipeline_<period>.log`.
 
+### Optional demo dashboard
+
+A lightweight Streamlit app gives a visual view of the results. It is **read-only
+over `outputs/`** — it never recomputes metrics or touches raw data, so the
+pipeline stays the single source of truth.
+
+```bash
+.venv/bin/streamlit run app.py
+```
+
+It shows the five KPI cards, a data-trust banner, a bar chart of why rows were
+quarantined, and the borough scatter that carries the judgement call (speed vs
+duration, sized by trips). Rerun the pipeline for another month and reload to
+switch periods.
+
 ## Dependability (Class 8)
 
 - **Repeatable:** one command reproduces every output from raw inputs.

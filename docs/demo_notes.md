@@ -38,9 +38,15 @@ just as important, tells them when *not* to trust a month."
   report a number *with the context that makes it safe to act on*, instead of a
   clean-looking average that would misdirect where to add supply."
 
-## 6. Dependability & close (30s)
+## 6. Dependability (30s)
 - Rerun reuses the cached raw file (SHA-256 match); `--force` re-downloads.
 - Ran for both 2024-01 and 2024-02 — same code, one flag, monthly repeatable.
+
+## 7. Optional visual + close (30s) — `.venv/bin/streamlit run app.py`
+- Show the dashboard: KPI cards, data-trust banner, quarantine bar chart, and
+  the borough scatter that makes the judgement call obvious on screen.
+- Stress the design choice: "the dashboard only reads `outputs/` — it never
+  recomputes, so what you see is exactly what the pipeline validated."
 - "From messy client files to a trustworthy, repeatable path to a decision."
 
 ## The single judgement call to name if asked

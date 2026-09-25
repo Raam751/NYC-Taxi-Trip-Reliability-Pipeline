@@ -2,3 +2,7 @@
 duckdb==1.5.5
 pandas==3.0.6
 pyarrow==25.0.1
+
+# Optional demo dashboard (read-only view over outputs/): `streamlit run app.py`
+streamlit==1.64.0
+altair==6.3.0
