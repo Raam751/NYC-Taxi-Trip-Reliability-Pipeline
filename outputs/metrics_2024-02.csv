@@ -1,0 +1,6 @@
+period,metric_id,metric_name,value,unit,definition,supports_decision
+2024-02,M1,Valid trip rate,89.28,%,Share of raw trips passing all validation rules,Data trust: is this month usable for decisions?
+2024-02,M2,Median trip duration,11.92,min,Median of validated trip durations,Baseline trip length for planning
+2024-02,M3,Median trip speed,9.43,mph,Median of validated average trip speeds,Efficiency; low speed signals congestion
+2024-02,M4,P90 trip duration,29.45,min,90th percentile validated trip duration,Reliability tail: how long are the slow trips
+2024-02,M5,Peak-hour trip share,38.24,%,"Share of trips in peak hours [7, 8, 9, 16, 17, 18, 19]",Demand concentration for staffing/supply

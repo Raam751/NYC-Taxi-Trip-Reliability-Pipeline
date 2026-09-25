@@ -1,0 +1,4 @@
+# NYC TLC pipeline dependencies (pinned for reproducibility)
+duckdb==1.5.5
+pandas==3.0.6
+pyarrow==25.0.1

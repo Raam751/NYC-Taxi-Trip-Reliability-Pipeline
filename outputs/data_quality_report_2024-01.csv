@@ -1,0 +1,13 @@
+rule_id,description,rows_failed,pct_of_total
+missing_timestamps,Pickup or dropoff timestamp is NULL,0,0.0
+non_positive_duration,Dropoff is not after pickup (zero/negative duration),870,0.0293
+duration_too_long,Duration exceeds 180 min,1983,0.0669
+duration_too_short,Duration under 1 min,35121,1.1847
+non_positive_distance,Trip distance is zero or negative,60371,2.0364
+distance_too_long,Trip distance exceeds 100 mi,59,0.002
+implausible_speed,Average speed outside 1-70 mph,65424,2.2068
+bad_passenger_count,Passenger count NULL or outside 1-6,171687,5.7912
+negative_amounts,Fare or total amount is negative,37568,1.2672
+unknown_zone,Pickup/dropoff LocationID is not a real zone (1-263),31527,1.0634
+out_of_period,Pickup date falls outside the target month,18,0.0006
+_SUMMARY_valid,Rows passing ALL rules (used for metrics),2686243,90.6099

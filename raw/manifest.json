@@ -1,0 +1,27 @@
+{
+  "trips_2024-01": {
+    "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-01.parquet",
+    "file": "yellow_tripdata_2024-01.parquet",
+    "bytes": 49961641,
+    "sha256": "c4d59da7bbc8abaeeeb1727947ee93d9891a71acb42854bd80db1571b2030510",
+    "retrieved_at": "2026-09-25T13:00:32+00:00",
+    "rows": 2964624,
+    "rows_source": "parquet_footer==duckdb_count"
+  },
+  "zones": {
+    "url": "https://d37ci6vzurychx.cloudfront.net/misc/taxi_zone_lookup.csv",
+    "file": "taxi_zone_lookup.csv",
+    "bytes": 12331,
+    "sha256": "1a99e105092230f8620f301edcca7f80d3080642ff404d28ed957d3fa222c8ed",
+    "retrieved_at": "2026-09-25T13:00:47+00:00"
+  },
+  "trips_2024-02": {
+    "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-02.parquet",
+    "file": "yellow_tripdata_2024-02.parquet",
+    "bytes": 50349284,
+    "sha256": "c76c43c18c6c6664080dd920baab4928988d5786a6b65980792ca7cd796f9f20",
+    "retrieved_at": "2026-09-25T13:00:47+00:00",
+    "rows": 3007526,
+    "rows_source": "parquet_footer==duckdb_count"
+  }
+}
